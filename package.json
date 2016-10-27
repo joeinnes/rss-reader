@@ -1,0 +1,38 @@
+{
+	"name": "rss-reader",
+	"version": "0.0.1",
+	"description": "Backend Server for RSS Reader",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^5.0.0-alpha.2",
+		"feedparser": "^1.1.5",
+		"request": "^2.76.0",
+		"mongoose": "^4.6.4",
+		"passwordless": "^1.1.2",
+		"passwordless-mongostore": "^0.1.4",
+		"express-session": "^1.14.1",
+		"path": "^0.12.7",
+		"body-parser": "^1.15.2",
+		"nodemailer": "^2.6.4",
+		"cookie-parser": "^1.4.3",
+		"morgan": "^1.7.0",
+		"emailjs": "^1.0.8",
+		"ejs": "^2.5.2"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
